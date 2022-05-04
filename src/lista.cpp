@@ -1,4 +1,4 @@
-#include "lista.h"
+#include "lista.hpp"
 
 void Swap(Item *a, Item *b){
 	Item aux;
@@ -14,7 +14,7 @@ void FLVazia(Lista *l){
 
 void LInsert(Lista *l, Item d){
 	if (l->last >= MAXTAM){
-		printf("LISTA CHEIA!\n");
+		cout << "LISTA CHEIA!" << endl;
 	}else{
 		l->vet[l->last] = d;
 		l->last ++;
@@ -25,10 +25,10 @@ void LRemove(Lista *l, Item d){
 	bool ok = false;
 
 	if(l->first == l->last)
-		printf("LISTA VAZIA!\n");
+		cout << "LISTA VAZIA!" << endl;
 	else{
 		for(int i=l->first; i<l->last; i++)
-			if(l->vet[i].val == d.val){
+			if(l->vet[i].nomes == d.nomes){
 				Swap(&l->vet[i], &l->vet[i+1]);
 				ok = true;	
 			}
@@ -38,11 +38,9 @@ void LRemove(Lista *l, Item d){
 	}
 }
 
-
 void LImprime(Lista *l){
 	for(int i=l->first; i<l->last; i++)
-		printf("%d\t", l->vet[i].val);
-	printf("\n");
+	cout << l->vet[i].nomes << endl;
 }
 
 

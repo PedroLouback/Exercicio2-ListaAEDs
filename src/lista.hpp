@@ -1,14 +1,18 @@
-#ifndef LISTA_H 
-#define LISTA_H
+#ifndef LISTA_HPP 
+#define LISTA_HPP
 
-#include<stdio.h>
-#include<stdlib.h>
-#include<stdbool.h>
+#include <stdbool.h>
+#include <fstream>
+#include <iostream>
+#include <stdlib.h>
+#include <string>
 
-#define MAXTAM 10
+using namespace std;
+
+#define MAXTAM 100
 
 typedef struct Item{
-	int val;
+	string nomes;
 }Item;
 
 typedef struct Lista{
