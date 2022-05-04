@@ -19,8 +19,13 @@ int main(){
 		LInsert(&l, aux);
 	}
 	arq.close();
-	
+
+	cout << "\nSegue a lista com os nomes: " << endl;
 	LImprime(&l);
+
+	RemoveIgualdade(&l);
+	
+	// LImprime(&l);
 
 	// aux.val = 10;
 	// LInsert(&l, aux);

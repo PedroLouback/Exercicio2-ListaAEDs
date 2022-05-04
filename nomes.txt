@@ -12,8 +12,8 @@ Felipe
 Bernardo
 Enzo
 Nicolas
-João Pedro
-Pedro Henrique
+João
+Pedro
 Cauã
 Vitor
 Eduardo
@@ -23,7 +23,7 @@ Murilo
 Vinicius
 Samuel
 Pietro
-João Vitor
+João
 Leonardo
 Caio
 Heitor
@@ -31,21 +31,21 @@ Lorenzo
 Isaac
 Lucca
 Thiago
-João Gabriel
+João
 João
 Theo
 Bruno
 Bryan
-Carlos Eduardo
-Luiz Felipe
+Carlos
+Luiz
 Breno
 Emanuel
 Ryan
-Vitor Hugo
+Vito
 Yuri
 Benjamin
 Erick
-Enzo Gabriel
+Enzo
 Fernando
 Joaquim
 André
@@ -55,46 +55,46 @@ Rodrigo
 Igor
 Antonio
 Ian
-Luiz Otávio
+Luiz
 Juan
-João Guilherme
+João
 Diogo
 Otávio
 Nathan
 Calebe
 Danilo
 Luan
-Luiz Henrique
+Luiz
 Kaique
 Alexandre
-João Miguel
+João
 Iago
 Ricardo
 Raul
 Marcelo
-Julio César
+Julio
 Cauê
 Benício
-Vitor Gabriel
+Vitor
 Augusto
-Pedro Lucas
-Luiz Gustavo
+Pedro
+Luiz
 Giovanni
 Renato
 Diego
-João Paulo
+João
 Renan
-Luiz Fernando
+Luiz
 Anthony
-Lucas Gabriel
+Lucas
 Thales
-Luiz Miguel
+Luiz
 Henry
-Marcos Vinicius
+Marcos
 Kevin
 Levi
 Enrico
-João Lucas
+João
 Hugo
-Luiz Guilherme
-Matheus Henrique
+Luiz
+Matheus

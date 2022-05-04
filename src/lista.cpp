@@ -43,6 +43,24 @@ void LImprime(Lista *l){
 	cout << l->vet[i].nomes << endl;
 }
 
+void RemoveIgualdade(Lista *l){
+	int i=0, j=0, count=0;
+	bool invalida = false;
+	for(i=l->first; i<l->last; i++){
+		for(j=i+1; j<l->last; j++){
+			if(l->vet[i].nomes == l->vet[j].nomes){
+				l->vet[j].nomes = invalida;
+				count++;
+			}
+		}
+	}
+	if (count > 1){
+		cout << "\nTodos os nomes iguais que foram encontrados foram removidos com sucesso, segue a lista sem a igualidade nos nomes: " << endl;
+		LImprime(l);
+	}else 
+		cout << "\nFoi feita a verificação de igualdade e não foi encontrado nenhum nome igual!" << endl;
+	
+}
 
 
 
