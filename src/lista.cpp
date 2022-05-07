@@ -63,7 +63,7 @@ Lista AbreArquivo(Lista *l){
 
 void RemoveIgualdade(Lista *l){
 	int i=0, j=0, k=0, count=0;
-	bool repete;
+	bool repete = false;
 	bool invalida = false;
 	string aux_nomes[MAXTAM];
 	for(i=l->first; i<l->last; i++){
@@ -76,8 +76,8 @@ void RemoveIgualdade(Lista *l){
 					}
 				}
 				if(repete==false){
-					aux_nomes[i]=l->vet[i].nomes;
 					count++;
+					aux_nomes[i]=l->vet[i].nomes;
 				} //Se não existir vai manter false e adicionar no vetor
 				l->vet[j].nomes = invalida;
 			}
@@ -86,7 +86,7 @@ void RemoveIgualdade(Lista *l){
 	cout << "\nExistem " << count << " nomes iguais!" << endl;
 	cout << "\nOs nomes que apareceram iguais são: " << endl;
 	for (i=0;i<count;i++){
-		if(aux_nomes[i]!="") //verifica se a string ta vazia antes de imprimir, para n imprimir todos as posições msm sem nada
+		if(aux_nomes[i].size()!=0) //verifica se a string ta vazia antes de imprimir, para n imprimir todos as posições msm sem nada
 			cout << aux_nomes[i] << endl;
 	}
 	if (count > 1){
