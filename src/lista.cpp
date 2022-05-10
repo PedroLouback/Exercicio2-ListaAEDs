@@ -50,6 +50,11 @@ Lista AbreArquivo(Lista *l){
 	cout << "\nInforme o nome do arquivo em que contém a lista de 100 nomes: ";
 	getline(cin, nome_arquivo);
 
+	if(!arq){
+		cerr << "Não foi possivel abrir o arquivo de saida : " << nome_arquivo << " \nSaindo do programa! \n";
+		exit(1);
+    }
+
 	arq.open(nome_arquivo);
 
 	while(!arq.eof()){
@@ -83,7 +88,6 @@ void RemoveIgualdade(Lista *l){
 			}
 		}
 	}
-	cout << "\nExistem " << count << " nomes iguais!" << endl;
 	cout << "\nOs nomes que apareceram iguais são: " << endl;
 	for (i=0;i<count;i++){
 		if(aux_nomes[i].size()!=0) //verifica se a string ta vazia antes de imprimir, para n imprimir todos as posições msm sem nada
